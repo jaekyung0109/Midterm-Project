@@ -1,0 +1,17 @@
+﻿1. Explain pros and cons of high degree polynomial
+Pros) 
+Better Fit = With sufficient complexity, high-degree polynomials can provide a better fit to the training data, resulting in lower training error.
+Cons)
+Overfitting = The main disadvantage is that high-degree polynomials are prone to overfitting. They can capture noise in the data, leading to poor generalization to new, unseen data.
+Numerical Instability = High-degree polynomials may result in numerical instability when solving for the coefficients.
+
+
+2. Explain pros and cons of low degree polynomial
+Pros) 
+Stability: Lower degree polynomials are more stable and less sensitive to small variations in the data.
+Cons)
+Underfitting =  Low-degree polynomials may underfit the training data, failing to capture the underlying relationships and resulting in high training error.
+
+
+3. What is this phenomenon called in machine learning?
+bias-variance trade-off
